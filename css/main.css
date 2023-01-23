@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+background: ;
+background: linear-gradient(#e66465, #9198e5);
+overflow-x: hidden;
+}
+
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: #ffdb58;
+  border: none;
+  color: black;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+margin: 0px 0px 0px 15px;
+}
+.hotel-room {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+svg{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -1;
+  left: 44px;
+}
+.remove-room-button{
+  width: 50px;
+  height: 50px;
+}
+.svgg{
+  position: absolute;
+  left: -5px;
+  margin-top: -12px;
+}
